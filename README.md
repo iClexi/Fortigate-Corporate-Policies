@@ -89,7 +89,7 @@ La segunda parte de SERVERS_TO_INTERNET muestra el modo flow-based, NAT activo y
 
 ![Política que permite acceso web al servidor](images/09_politica_allow_users_http_to_web-server.png)
 
-La política ALLOW_USERS_HTTP_TO_WEB permite tráfico desde LAN_USUARIOS_NET hacia el objeto WEB_SERVER por port3. En la captura se ven los servicios HTTP y  , acción ACCEPT, NAT deshabilitado y modo proxy-based. La regla limita el destino al servidor web y tiene aplicado el perfil WAF_WEB_SERVER_PROTECTION.
+La política ALLOW_USERS_HTTP_TO_WEB permite tráfico desde LAN_USUARIOS_NET hacia el objeto WEB_SERVER por port3. En la captura se ven los servicios HTTP, acción ACCEPT, NAT deshabilitado y modo proxy-based. La regla limita el destino al servidor web y tiene aplicado el perfil WAF_WEB_SERVER_PROTECTION.
 
 ### Denegación del resto del tráfico hacia servidores
 
