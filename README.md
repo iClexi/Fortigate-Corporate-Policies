@@ -8,8 +8,8 @@ Repositorio de evidencias y documentación del laboratorio de políticas corpora
 
 ## Enlaces del proyecto
 
-- Repositorio GitHub: https://github.com/iClexi/Fortigate-Corporate-Policies
-- Video demostrativo: https://youtu.be/0reqS0mu2Xg?si=DVFub7pDGiVRa4Gi
+- Repositorio GitHub:  https://github.com/iClexi/Fortigate-Corporate-Policies
+- Video demostrativo:  https://youtu.be/0reqS0mu2Xg?si=DVFub7pDGiVRa4Gi
 - Documentación técnica profesional: [docs/Documentación Técnica Profesional.pdf](docs/Documentaci%C3%B3n%20T%C3%A9cnica%20Profesional.pdf)
 
 ## Estructura del repositorio
@@ -55,7 +55,7 @@ El panel de interfaces muestra las tres zonas del laboratorio: WAN_INTERNET en p
 
 ![Configuración de port2 como LAN de usuarios](images/04_interfaz_port2_lan_usuarios.png)
 
-La interfaz LAN_USUARIOS port2 está configurada manualmente con 10.8.45.1/25. Esta dirección funciona como puerta de enlace de la red de usuarios 10.8.45.0/25. En el acceso administrativo se ven habilitados HTTPS, HTTP, SSH y PING para administración y pruebas internas del laboratorio.
+La interfaz LAN_USUARIOS port2 está configurada manualmente con 10.8.45.1/25. Esta dirección funciona como puerta de enlace de la red de usuarios 10.8.45.0/25. En el acceso administrativo se ven habilitados  , HTTP, SSH y PING para administración y pruebas internas del laboratorio.
 
 ## DHCP y resolución DNS
 
@@ -89,7 +89,7 @@ La segunda parte de SERVERS_TO_INTERNET muestra el modo flow-based, NAT activo y
 
 ![Política que permite acceso web al servidor](images/09_politica_allow_users_http_to_web-server.png)
 
-La política ALLOW_USERS_HTTP_TO_WEB permite tráfico desde LAN_USUARIOS_NET hacia el objeto WEB_SERVER por port3. En la captura se ven los servicios HTTP y HTTPS, acción ACCEPT, NAT deshabilitado y modo proxy-based. La regla limita el destino al servidor web y tiene aplicado el perfil WAF_WEB_SERVER_PROTECTION.
+La política ALLOW_USERS_HTTP_TO_WEB permite tráfico desde LAN_USUARIOS_NET hacia el objeto WEB_SERVER por port3. En la captura se ven los servicios HTTP y  , acción ACCEPT, NAT deshabilitado y modo proxy-based. La regla limita el destino al servidor web y tiene aplicado el perfil WAF_WEB_SERVER_PROTECTION.
 
 ### Denegación del resto del tráfico hacia servidores
 
