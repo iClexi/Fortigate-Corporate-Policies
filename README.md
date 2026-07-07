@@ -9,7 +9,7 @@ Repositorio de evidencias y documentación del laboratorio de políticas corpora
 ## Enlaces del proyecto
 
 - Repositorio GitHub: https://github.com/iClexi/Fortigate-Corporate-Policies
-- Video demostrativo: https://youtu.be/9Mjof5YxtKg?si=TpSuH9TQf1OwJGXo
+- Video demostrativo: https://youtu.be/0reqS0mu2Xg?si=DVFub7pDGiVRa4Gi
 - Documentación técnica profesional: [docs/Documentación Técnica Profesional.pdf](docs/Documentaci%C3%B3n%20T%C3%A9cnica%20Profesional.pdf)
 
 ## Estructura del repositorio
