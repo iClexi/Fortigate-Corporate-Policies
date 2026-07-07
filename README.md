@@ -1,17 +1,4 @@
-<div align="center">
-
 # Fortigate Corporate Policies
-
-![FortiGate](https://img.shields.io/badge/FortiGate-Firewall-red?style=for-the-badge)
-![GNS3](https://img.shields.io/badge/GNS3-Lab-blue?style=for-the-badge)
-![WAF](https://img.shields.io/badge/WAF-Enabled-orange?style=for-the-badge)
-![DNS](https://img.shields.io/badge/DNS-Filtering-green?style=for-the-badge)
-![DHCP](https://img.shields.io/badge/DHCP-Configured-teal?style=for-the-badge)
-![Application Control](https://img.shields.io/badge/Application%20Control-WhatsApp%20VoIP-purple?style=for-the-badge)
-![DoS Policy](https://img.shields.io/badge/DoS%20Policy-Scanner%20Detection-yellow?style=for-the-badge)
-![Security](https://img.shields.io/badge/Security-Network%20Policies-black?style=for-the-badge)
-
-</div>
 
 Repositorio de evidencias y documentación del laboratorio de políticas corporativas en FortiGate Firewall.
 
